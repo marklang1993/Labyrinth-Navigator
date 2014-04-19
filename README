@@ -1,0 +1,9 @@
+Labytinth Navigator Project (Scribbler S2 Robot):
+Control a Scribbler S2 Robot to explore a 3D labyrinth and automatically generate the labyrinth map.
+
+Mainly contain 3 parts: 
+1. Explore the labyrinth and generate the raw map of this labyrinth
+2. Based on the data got from the 1st part, generate routes to guide the robot to explore the rest of labyrinth in the 1st part and push the box in this labyrinth in the 3rd part.
+3. Use the route generated in 2nd part to push the box.
+
+I wrote find_route.py by using simple backtrace algorithm.
